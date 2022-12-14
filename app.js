@@ -26,7 +26,7 @@ form.addEventListener('submit',async function(evt){
     input.value = "";
 })
 
-const rmvGif = document.querySelector("#removeBtn");
+const rmvGif = document.querySelector("#removeBtn"); //a button element in a form element acts as a submit button
 rmvGif.addEventListener('click', function(){
     console.log("remove clicked")
     // remove all img
