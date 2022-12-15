@@ -7,9 +7,7 @@ function addGif(imgSrc){
         src : imgSrc,
         class : "w-100"
     });
-    let $newCol = $("<div>");
-    $newCol.append($newGif);
-    $gifContainer.append($newCol);
+    $gifContainer.append($newGif);
 }
 
 const $form = $("#form");
